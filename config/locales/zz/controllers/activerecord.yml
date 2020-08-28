@@ -1,0 +1,5 @@
+zz:
+  activerecord:
+    errors:
+      messages:
+        not_found: "The record does not exist"
