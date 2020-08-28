@@ -1,4 +1,4 @@
-en:
+zz:
   invitation:
     info_sent: "An invitation has been sent to %{email}. Please check your email and follow the instructions to complete the process."
     email_resent: "An email has been resent to %{email}.  Please check your email for the link to create your account."

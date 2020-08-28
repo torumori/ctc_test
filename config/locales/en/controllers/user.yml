@@ -1,4 +1,4 @@
-en:
+zz:
   user:
     updated: "User %{name} was successfully updated."
     forgot_password_info_sent: "Instructions to reset your password have been sent to %{email}. If you have not received an email within ten minutes, check your spam folder."
