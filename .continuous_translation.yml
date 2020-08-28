@@ -11,3 +11,4 @@ exclude_all:
   - 'config/locales/en/models/unspsc_classifications.en.yml'
   - 'config/locales/en/models/unspsc_classifications_3.en.yml'
   - 'config/locales/en/views/isic_classification.yml'
+  - 'config/locales/en/test_file_that_will_be_depcrecated_by_adding_to_exclusion_list.yml'
