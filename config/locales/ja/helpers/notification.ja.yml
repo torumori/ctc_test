@@ -1,0 +1,86 @@
+ja:
+  notification:
+    error:
+      no_message: "メッセージが見つかりません。"
+    user:
+      new_connection: "%{customer}に接続されました"
+    profile:
+      update_public_profile: "会社の一般公開プロファイルを更新"
+      update_profile_for: "%{customer}のプロファイルを更新"
+      profile_update_reminder: 早期に支払を受け取り検索されやすくするために、プロファイルを完成させてください
+      pending_sim_profiles: 現在のプロファイル情報で更新されていない既存の情報申請があります。お持ちの情報で該当する申請を更新できます。
+    invoice_header:
+      new_invoice_header_comment: "インボイス%{invoice}に関する%{customer}からの新規コメント"
+      new_credit_note_comment: "貸方票%{invoice}に関する%{customer}からの新規コメント"
+      invoice_paid: "インボイス%{invoice}（金額%{amount}）が%{customer}によって支払済みとしてマークされました"
+      credit_note_paid: "貸方票%{invoice}（金額%{amount}）が%{customer}によって支払済みとしてマークされました"
+      invoice_approved: "インボイス%{invoice}（金額%{amount}）の支払が%{customer}によって承認されました。"
+      credit_note_approved: "貸方票%{invoice}（金額%{amount}）の支払が%{customer}によって承認されました。"
+      invoice_disputed: "インボイス%{invoice}（金額%{amount}）に対して%{customer}から申し立てがありました。"
+      credit_note_disputed: "貸方票%{invoice}（金額%{amount}）に対して%{customer}から申し立てがありました。"
+      invoice_abandoned: "インボイス%{invoice}（金額%{amount}）が%{customer}によって放棄されました。"
+      credit_note_abandoned: "貸方票%{invoice}（金額%{amount}）が%{customer}によって放棄されました。"
+      invoice_dispute_withdrawn: "インボイス%{invoice}（金額%{amount}）に対する%{customer}からの申し立てが撤回されました。"
+      credit_note_dispute_withdrawn: "貸方票%{invoice}（金額%{amount}）に対する%{customer}からの申し立てが撤回されました。"
+      legal_invoice_export: "要求された法的請求書ファイルが生成され、ダウンロードすることができます。"
+    order_header:
+      new_order_header_comment: "%{po}に関する%{customer}からの新規コメント"
+      new_po: "新規PO%{po}（金額%{amount}）が%{customer}によって発行されました。"
+      new_po_hide_price: "新規PO%{po}が%{customer}によって発行されました。"
+      po_canceled: "%{customer}からのPO #%{po}がキャンセルされました"
+    order_header_change:
+      rejected: "%{company_name}が変更申請を拒否しました - PO #%{po_number}。"
+    catalog:
+      new_catalog_comment: "%{catalog}に関する%{customer}からの新規コメント"
+      accepted: "カタログ%{catalog}が%{customer}によって承認されました。"
+      rejected: "カタログ%{catalog}が%{customer}によって拒否されました。"
+      expired: "%{customer}とのカタログ%{catalog}は30日後に失効します。"
+    easy_form_response:
+      approved: "あなたが提出したサプライヤー情報が%{customer}によって承認されました。"
+      rejected: "あなたが提出したサプライヤー情報が%{customer}によって拒否されました。"
+      submitted: "最近、会社情報の更新が顧客に送信されました。"
+      reminders:
+        send_reminder: "%{customer}からの最初のリマインダー: 情報申請はまだ保留中です。"
+        send_first_harsh_reminder: "%{customer}からの2回目のリマインダー: 情報申請はまだ保留中です。"
+        send_second_harsh_reminder: "%{customer}からの3回目のリマインダー: 情報申請はまだ保留中です。"
+        send_warning: "%{customer}からの最後のリマインダー: 情報申請はまだ保留中です。"
+        close_sim_response: "期限切れ: %{customer}は申請をキャンセルしました。取引を希望する場合は、お問い合わせいただき、フォームを依頼してください。"
+      new_comment: '新しいSIMコメントを受信しました'
+    tou_signoff:
+      new_tou: "%{customer}による承認が必要な新規使用条件があります"
+    work_confirmation:
+      accepted: "サービス/時間シート%{work_confirmation}が承認されました。"
+      rejected: "サービス/時間シート%{work_confirmation}が拒否されました。"
+    coupa_accelerate:
+      accelerate_enabled: "%{customer}はCoupa Accelerateを使用して、インボイスの早期支払ができます。設定を更新してください。"
+    coupa_pay:
+      digital_check_ready: "%{customer}からの支払#%{payment_id}（金額%{amount} %{currency}）の新規デジタル小切手をダウンロードできます。"
+      supplier_virtual_card_created: "%{document_type}: %{document_number}について、%{customer}からの新規バーチャルカード（末尾%{card_number}）に請求できます。"
+      purchase_order: 発注書
+      invoice_payment: 請求書支払い
+      card_acquirers:
+        stripe: Stripe
+      supplier_virtual_card_cancelled: "%{document_type} %{document_number}の支払のために以前に作成された、末尾が%{card_number}のバーチャルクレジットカードが%{customer}によってキャンセルされました。"
+      supplier_virtual_card_re_created: "%{document_type}: %{document_number}について、%{customer}からの新規バーチャルカード（末尾%{card_number}）に請求できます。"
+      supplier_virtual_card_reminder: "%{document_type}: %{document_numbers}には、まだ全額が請求されていないバーチャルカードがあります。"
+      supplier_payment_role_granted_to_new_user: "%{new_user_full_name}には、[支払]の役割を使用して機密の支払詳細にアクセスする権限があります。"
+      supplier_virtual_card_processing_failure: "%{acquirer_name}による%{document_type}: %{document_number}のバーチャルカードの自動処理で問題が発生しました。カードへの請求を手動で再試行する前に、%{acquirer_name}にエラーが発生しているか確認してください。"
+      remittance_advice_on_payment_for_bank_transfer: "%{customer_name}さんがあなたの銀行口座（%{bank_account_reference_number}）に%{payment_total_with_currency}を支払いました。"
+      remittance_advice_on_payment_for_virtual_card: "%{customer_name}さんが、末尾が%{virtual_card_number}のCoupa Payバーチャルカードを使用して、%{payment_total_with_currency}の支払を送金しました。"
+      remittance_advice_on_payment_with_zero_amount: "%{customer_name}さんがCoupa Payを使用して、%{payment_total_with_currency}の支払を送金しました。"
+      digital_check_cancelled: "支払#%{payment_id}が%{customer_name}さんによってキャンセルされました。デジタル小切手（%{digital_check_number}）に預金しないでください。この支払に関する情報を顧客に連絡してください。"
+    announcement:
+      new: "<b>%{subject}</b>（%{customer}）</br> %{message}"
+    integration:
+      cxml_error: "%{customer}のcXMLエラーが発生しました"
+    earlyPaymentRequest:
+      title: "動的割引"
+      early_payment_request_matched: "%{buyer_company_name}が早期支払申請#%{request_number}を承認しました。%{due_days}日以内に支払われる予定です。"
+      early_payment_request_rejected: "%{buyer_company_name}が早期支払申請#%{request_number}を拒否しました。割引率を変更して申請を再提出することができます。"
+      early_payment_request_expired: "%{buyer_company_name}に対する早期支払申請#%{request_number}の期限が切れました"
+      early_payment_request_paid: "%{buyer_company_name}が早期支払申請#%{request_number}を支払いました"
+      early_payment_request_financier_rejected: "%{payer_company_name}が早期支払申請#%{request_number}を拒否しました"
+    business_performance:
+      business_performance_role_granted: "あなたは業績に関する役割を与えられました。"
+    receipt_request:
+      receipt_approved_created_notification: "PO #%{id}が%{customer_name}によって受領されました"
