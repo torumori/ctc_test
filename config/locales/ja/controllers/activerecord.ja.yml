@@ -1,0 +1,5 @@
+ja:
+  activerecord:
+    errors:
+      messages:
+        not_found: "その記録は存在しません"
