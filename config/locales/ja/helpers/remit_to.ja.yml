@@ -1,0 +1,14 @@
+ja:
+  remit_to:
+    countries_tax_types:
+      default: 'VAT ID'
+      us: "税金ID"
+      sg: "GST ID"
+      au: "ABN"
+      ic: "CIF ID"
+      jp: '税金ID'
+      my: "SST ID"
+      mm: '商業税ID'
+      pk: '売上税ID'
+    skip_tax_number_label: "%{tax_label}番号がありません"
+    skip_tax_number_default: "これを地方税番号として使用する"
