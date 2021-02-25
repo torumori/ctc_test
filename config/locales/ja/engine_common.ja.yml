@@ -1,0 +1,26 @@
+ja:
+  engine_common:
+    feedback:
+      feedback_sent: フィードバックが送信されました
+      error:
+        no_message: フィードバックを送信できるように、メッセージを追加
+        send_error: フィードバックを送信できませんでした
+    js:
+      company_list:
+        title: マイ顧客
+        search: 検索
+      learning_center:
+        title: ラーニングセンター
+      feedback:
+        feedback: フィードバック
+        give_feedback: ご意見をお聞かせください
+        from: "供給元："
+        header_text: この機能を試していただきありがとうございます。改善できるようご提案したいと考えております。
+        message_label: "メッセージ:"
+        cancel: キャンセル
+        submit: 送信
+        submitting: 送信しています...
+        error:
+          send_error: 問題が発生しました。接続を確認し、もう一度お試しください。
+        success: フィードバックが送信されました
+      data_disclaimer: "入力されたデータは一方向のデータであり、情報提供のみを目的としています。最大1～2週間遅れることがあります。"
