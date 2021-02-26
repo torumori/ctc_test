@@ -1,0 +1,11 @@
+ja:
+  pages_for_announcement:
+    advanced_ship_notices ASN
+    catalogs: カタログ
+    invoices: 請求書
+    orders: 注文
+    payments: 支払
+    suppliers: プロファイル
+    work_confirmations: サービス/時間シート
+  announcement:
+    view_all_announcements: すべての通知を表示

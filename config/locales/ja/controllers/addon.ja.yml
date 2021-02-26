@@ -1,0 +1,23 @@
+ja:
+  addon:
+    interest: "あなたの関心が承認されました。すぐにご連絡いたします。"
+    error: "申請でエラーが発生しました。"
+    coupa_advantage:
+      title: "Coupa Advantage"
+    invoice_finance:
+      title: "請求書ファイナンス"
+    coupa_accelerate:
+      title: "Coupa Accelerate"
+    coupa_bsm:
+      title: "Coupa BSM"
+    enhance_profile:
+      title: "プロファイルを強化"
+    stripe_payments:
+      title: "Stripeの支払"
+    supplier_perks:
+      title: "ワンクリックで節減"
+    new:
+      default_message: 
+        coupa_advantage: "Coupa Advantageに関心があります。"
+        invoice_finance: "請求書ファイナンスに関心があります。"
+        coupa_bsm: "Coupa BSMに関心があります。"
